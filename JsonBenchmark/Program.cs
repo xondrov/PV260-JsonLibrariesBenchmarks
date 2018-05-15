@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
+using JsonBenchmark.TestDTOs;
 
 namespace JsonBenchmark
 {
@@ -8,6 +9,7 @@ namespace JsonBenchmark
         {
             BenchmarkRunner.Run<JsonDeserializersBenchmarks>();
             BenchmarkRunner.Run<JsonSerializersBenchmarks>();
+            System.Console.ReadKey();
         }
     }
 }

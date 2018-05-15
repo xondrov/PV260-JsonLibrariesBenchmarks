@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JsonBenchmark.TestDTOs;
+using System;
 using System.IO;
 
 namespace JsonBenchmark
